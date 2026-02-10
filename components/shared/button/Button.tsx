@@ -40,18 +40,6 @@ export default function Button({
       {IconLeft && <Icon name={IconLeft} className={iconClass} />}
       {children}
       {IconRight && <Icon name={IconRight} className={iconClass} />}
-      {/* <svg
-      width="12"
-      height="12"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="3"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M7 17l9.2-9.2M17 17V7H7" />
-    </svg> */}
     </ShadButton>
   );
 }
