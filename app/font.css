@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("/fonts/HelveticaNowDisplay-Regular.eot");
+  src:
+    url("/fonts/HelveticaNowDisplay-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"),
+    url("/fonts/HelveticaNowDisplay-Regular.woff") format("woff"),
+    url("/fonts/HelveticaNowDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url("/fonts/HelveticaNowDisplay-Medium.eot");
+  src:
+    url("/fonts/HelveticaNowDisplay-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/HelveticaNowDisplay-Medium.woff2") format("woff2"),
+    url("/fonts/HelveticaNowDisplay-Medium.woff") format("woff"),
+    url("/fonts/HelveticaNowDisplay-Medium.ttf") format("truetype");
+
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-custom: "HelveticaNowDisplay", sans-serif;
+}
