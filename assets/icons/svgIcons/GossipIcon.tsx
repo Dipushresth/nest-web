@@ -1,4 +1,4 @@
-export default function GossipIcon(props) {
+export default function GossipIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="25"

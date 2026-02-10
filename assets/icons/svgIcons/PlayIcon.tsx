@@ -1,4 +1,4 @@
-export default function PlayIcon(props) {
+export default function PlayIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       className="w-12 h-12 md:w-16 md:h-16 ml-2"

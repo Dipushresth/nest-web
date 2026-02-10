@@ -1,4 +1,6 @@
-export default function GetQuotation(props) {
+import React from "react";
+
+export default function GetQuotation(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="14"

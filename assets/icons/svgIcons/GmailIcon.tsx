@@ -1,4 +1,4 @@
-export default function GmailIcon(props) {
+export default function GmailIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"

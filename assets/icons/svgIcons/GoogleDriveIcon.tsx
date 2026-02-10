@@ -1,4 +1,4 @@
-export default function GoogleDriveIcon(props) {
+export default function GoogleDriveIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="24"

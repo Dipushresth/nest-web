@@ -1,4 +1,4 @@
-export default function GoogleMeetIcon(props) {
+export default function GoogleMeetIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="40"

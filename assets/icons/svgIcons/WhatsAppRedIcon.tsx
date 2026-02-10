@@ -1,4 +1,4 @@
-export default function WhatsAppRedIcon(props) {
+export default function WhatsAppRedIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

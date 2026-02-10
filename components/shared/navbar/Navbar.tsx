@@ -18,15 +18,10 @@ export default function Navbar() {
     const calculateTimeLeft = () => {
       const now = new Date();
       const year = now.getFullYear();
-
-      // Set target to Feb 14 of the current year
       let targetDate = new Date(`February 14, ${year} 00:00:00`);
-
-      // If today is past Feb 14, set target to Feb 14 of next year
       if (now > targetDate) {
         targetDate = new Date(`February 14, ${year + 1} 00:00:00`);
       }
-
       const difference = targetDate.getTime() - now.getTime();
 
       if (difference > 0) {
@@ -48,17 +43,13 @@ export default function Navbar() {
         setTimeLeft({ days: "00", hrs: "00", min: "00", sec: "00" });
       }
     };
-
-    // Run once on mount
     calculateTimeLeft();
-
-    // Update every second
     const timer = setInterval(calculateTimeLeft, 1000);
 
     return () => clearInterval(timer);
   }, []);
   return (
-    <header className="sticky top-0 z-50 bg-white px-4 py-8">
+    <header className="sticky top-0 z-50 bg-white px-4 py-3">
       <div className="container flex  items-center justify-between">
         <div className="flex">
           <Link href="/" className="flex items-center gap-2">

@@ -1,4 +1,6 @@
-export default function GoogleChatIcon(props) {
+import { SVGProps } from "react";
+
+export default function GoogleChatIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="43"
