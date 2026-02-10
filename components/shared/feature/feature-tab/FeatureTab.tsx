@@ -68,7 +68,6 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({
   return (
     <section className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
-        {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
             {headline.split(",")[0]},{" "}
@@ -131,7 +130,6 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({
                 </div>
               </div>
             </div>
-
 
             <div className="absolute inset-[15%] flex items-center justify-center">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-slate-50 p-1.5 rounded-full shadow-sm">
