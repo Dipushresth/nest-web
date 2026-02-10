@@ -10,6 +10,7 @@ import Button from "@/components/shared/button/Button";
 import Link from "next/link";
 import PricingSection from "@/components/home/components/Pricing";
 import FeatureSection from "@/components/home/components/Features";
+import FeatureTabs from "@/components/shared/feature/feature-tab/FeatureTab";
 
 export default function Home() {
   const faqItems: AccordionItemInterface[] = [
@@ -110,6 +111,7 @@ export default function Home() {
       <TrustedBy />
       <PricingSection />
       <FeatureSection />
+      <FeatureTabs />
       <AccordionMenu
         items={faqItems}
         title={
